@@ -221,3 +221,32 @@ export function contactPageSchema() {
     },
   };
 }
+
+export function blogPostingSchema(post: {
+  slug: string;
+  title: string;
+  metaDescription: string;
+  datePublished: string;
+}) {
+  const url = `${BASE_URL}/blog/${post.slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${url}#article`,
+    headline: post.title,
+    description: post.metaDescription,
+    url,
+    mainEntityOfPage: url,
+    datePublished: post.datePublished,
+    dateModified: post.datePublished,
+    author: {
+      "@type": "Person",
+      name: "Foman \"Frank\" Robinson",
+      jobTitle: "Owner & Lead Appliance Repair Technician",
+      url: `${BASE_URL}/about`,
+    },
+    publisher: {
+      "@id": `${BASE_URL}/#business`,
+    },
+  };
+}

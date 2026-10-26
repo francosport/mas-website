@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { SERVICES, getServiceBySlug, getAllServiceSlugs } from "@/lib/services";
 import { servicePageSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
+import { getPostsForService } from "@/lib/posts";
 import ApplianceIcon from "@/components/ApplianceIcon";
 import {
   Accordion,
@@ -43,6 +44,7 @@ export default async function ServicePage({ params }: Props) {
   if (!service) notFound();
 
   const otherServices = SERVICES.filter((s) => s.slug !== slug).slice(0, 4);
+  const guides = getPostsForService(slug);
 
   const crumbs = [
     { name: "Home", url: "https://www.metroappliances.net" },
@@ -259,6 +261,18 @@ export default async function ServicePage({ params }: Props) {
               </AccordionItem>
             ))}
           </Accordion>
+          {guides.length > 0 && (
+            <div className="mt-8 space-y-2">
+              {guides.map((g) => (
+                <p key={g.slug} className="text-gray-300">
+                  Read our guide:{" "}
+                  <Link href={`/blog/${g.slug}`} className="text-[#F5821F] font-semibold hover:underline">
+                    {g.title}
+                  </Link>
+                </p>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
