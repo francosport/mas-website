@@ -145,7 +145,7 @@ Every repair is backed by a full one-year parts-and-labor warranty. Your satisfa
     slug: "dryer-repair",
     name: "Dryer Repair",
     shortName: "Dryer",
-    tagline: "Clothes still damp? We'll fix that today",
+    tagline: "Clothes still damp? We'll get it drying again",
     description:
       "Professional dryer repair for electric and gas units across the DMV. We diagnose heating failures, drum issues, and mechanical problems — fast.",
     longDescription: `Damp clothes after a full cycle or a dryer that won't start at all — both are fixable. Metro Appliance Services repairs electric and gas dryers of all makes and models.
@@ -160,7 +160,7 @@ A dryer that doesn't heat properly or runs too hot can be a fire hazard. Don't d
 Samsung, LG, Whirlpool, Maytag, GE, Frigidaire, Electrolux, Kenmore, and Speed Queen.
 
 **Gas and electric:**
-We repair both gas and electric dryers. Our technicians are fully trained and licensed to work on gas appliances safely.`,
+We repair both gas and electric dryers. We are experienced with gas appliances and follow safe gas-handling practices on every job.`,
     icon: "♨️",
     symptoms: [
       "Clothes still damp after a full cycle",

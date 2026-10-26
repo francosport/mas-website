@@ -113,7 +113,7 @@ export default function HomePage() {
                 <div className="inline-flex items-center gap-1.5 bg-white/5 border border-white/20 rounded-full px-4 py-1.5">
                   <span className="text-yellow-400 text-sm">★★★★★</span>
                   <span className="text-white text-sm font-semibold">4.9</span>
-                  <span className="text-gray-400 text-sm">· 194+ Google Reviews</span>
+                  <span className="text-gray-400 text-sm">· 204+ Google Reviews</span>
                 </div>
               </div>
 

@@ -127,7 +127,7 @@ export const LOCATIONS: Location[] = [
     incomeYear: 2023,
     isPriority: true,
     description:
-      "Largo is home to Metro Appliance Services headquarters. Largo shares ZIP code 20774 with Upper Marlboro and is recognized by Google as part of the broader Upper Marlboro area. As our home base, Largo residents enjoy our fastest response times and same-day availability for urgent appliance repairs.",
+      "Largo is home to Metro Appliance Services headquarters. Largo shares ZIP code 20774 with Upper Marlboro and is recognized by Google as part of the broader Upper Marlboro area. As our home base, Largo is the closest part of our service area. Call to ask about the earliest available appointment.",
     neighborhoods: ["Lake Arbor", "Kettering", "Perrywood", "Largo Town Center"],
     nearbyAreas: ["Upper Marlboro", "Mitchellville", "Lanham", "Bowie"],
     zipCodes: ["20774"],
