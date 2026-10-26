@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `https://www.metroappliances.net/service-areas/${city}`,
     },
     openGraph: {
-      title: location.metaTitle,
+      title: `${location.metaTitle} | Metro Appliance Services`,
       description: location.metaDescription,
       url: `https://www.metroappliances.net/service-areas/${city}`,
     },
@@ -206,7 +206,7 @@ export default async function CityPage({ params }: Props) {
             <div className="text-gray-600 leading-relaxed space-y-4">
               <p>
                 Metro Appliance Services is proud to serve {location.name}, {location.state} — one of the
-                DMV&apos;s most established residential communities. Our certified technicians provide
+                DMV&apos;s most established residential communities. Our experienced technicians provide
                 fast, professional appliance repair to homeowners throughout {location.name} and
                 surrounding neighborhoods including {location.neighborhoods.join(", ")}.
               </p>
@@ -282,7 +282,7 @@ export default async function CityPage({ params }: Props) {
             Schedule Appliance Repair in {location.name}
           </h2>
           <p className="text-orange-100 mb-6">
-            OEM parts. 1-year warranty. Transparent pricing. Certified technicians.
+            OEM parts. 1-year warranty. Transparent pricing. Owner-operated.
           </p>
           <a
             href="tel:+12408591014"

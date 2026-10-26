@@ -29,7 +29,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Lake Arbor", "Woodmore", "Glenn Dale"],
     nearbyAreas: ["Bowie", "Upper Marlboro", "Lanham"],
     zipCodes: ["20721"],
-    metaTitle: "Appliance Repair in Mitchellville MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Mitchellville MD",
     metaDescription:
       "Expert appliance repair in Mitchellville, MD. Refrigerator, washer, dryer, oven, and more. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -46,7 +46,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Belair at Bowie", "White Marsh", "Pointer Ridge", "Bowie Town Center area"],
     nearbyAreas: ["Mitchellville", "Upper Marlboro", "Lanham"],
     zipCodes: ["20715", "20716", "20720", "20721"],
-    metaTitle: "Appliance Repair in Bowie MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Bowie MD",
     metaDescription:
       "Fast appliance repair in Bowie, MD. Refrigerator, washer, dryer, oven, dishwasher repair. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -63,7 +63,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Clinton Hills", "Brandywine", "Rosaryville"],
     nearbyAreas: ["Upper Marlboro", "District Heights", "Waldorf"],
     zipCodes: ["20735"],
-    metaTitle: "Appliance Repair in Clinton MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Clinton MD",
     metaDescription:
       "Reliable appliance repair in Clinton, MD. Expert service for washers, dryers, refrigerators, ovens, and more. OEM parts, 1-year warranty. (240) 859-1014.",
   },
@@ -76,13 +76,13 @@ export const LOCATIONS: Location[] = [
     incomeYear: 2024,
     isPriority: true,
     description:
-      "Upper Marlboro is the county seat of Prince George's County, featuring large residential estates and newer development communities with high-end appliances that require certified repair. The 20774 ZIP code encompasses both Upper Marlboro and the Largo community, where Metro Appliance Services is headquartered — making us the closest certified repair service in the area.",
+      "Upper Marlboro is the county seat of Prince George's County, featuring large residential estates and newer development communities with high-end appliances that need careful, experienced repair. The 20774 ZIP code covers both Upper Marlboro and the Largo community, where Metro Appliance Services is based, so we are close by for most of the area.",
     neighborhoods: ["Marlboro Meadows", "Cabin Branch", "Parkside"],
     nearbyAreas: ["Bowie", "Mitchellville", "Clinton", "Largo"],
     zipCodes: ["20772", "20774"],
-    metaTitle: "Appliance Repair in Upper Marlboro MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Upper Marlboro MD",
     metaDescription:
-      "Certified appliance repair in Upper Marlboro, MD. Refrigerator, washer, dryer, oven repair. OEM parts, 1-year warranty. Call (240) 859-1014.",
+      "Appliance repair in Upper Marlboro, MD. Refrigerator, washer, dryer, oven repair. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
   {
     slug: "waldorf",
@@ -97,7 +97,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["St. Charles", "Acton", "Brandywine"],
     nearbyAreas: ["Clinton", "Brandywine", "La Plata"],
     zipCodes: ["20601", "20602", "20603"],
-    metaTitle: "Appliance Repair in Waldorf MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Waldorf MD",
     metaDescription:
       "Fast appliance repair in Waldorf, MD. Expert repair for all major appliances and brands. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -110,11 +110,11 @@ export const LOCATIONS: Location[] = [
     incomeYear: 2024,
     isPriority: true,
     description:
-      "Washington, DC homeowners and renters depend on reliable appliances in row houses, condos, and apartments throughout the District. Metro Appliance Services provides fast, certified repair across DC neighborhoods.",
+      "Washington, DC homeowners and renters depend on reliable appliances in row houses, condos, and apartments throughout the District. Metro Appliance Services provides fast, reliable repair across DC neighborhoods.",
     neighborhoods: ["Capitol Hill", "Columbia Heights", "Southeast DC", "Northeast DC", "Anacostia"],
     nearbyAreas: ["Hyattsville", "Silver Spring", "Capitol Heights", "Riverdale"],
     zipCodes: ["20001", "20002", "20003", "20019", "20020"],
-    metaTitle: "Appliance Repair in Washington DC | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Washington DC",
     metaDescription:
       "Professional appliance repair in Washington, DC. We service all DC neighborhoods — refrigerators, washers, dryers, ovens, and more. Call (240) 859-1014.",
   },
@@ -131,9 +131,9 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Lake Arbor", "Kettering", "Perrywood", "Largo Town Center"],
     nearbyAreas: ["Upper Marlboro", "Mitchellville", "Lanham", "Bowie"],
     zipCodes: ["20774"],
-    metaTitle: "Appliance Repair in Largo MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Largo MD (20774)",
     metaDescription:
-      "Metro Appliance Services is based in Largo, MD. Fast, certified appliance repair with OEM parts and 1-year warranty. Call (240) 859-1014.",
+      "Metro Appliance Services is based in Largo, MD. Fast appliance repair with OEM parts and 1-year warranty. Call (240) 859-1014.",
   },
   {
     slug: "riverdale",
@@ -148,7 +148,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Riverdale Park", "Calvert Hills", "University Park"],
     nearbyAreas: ["College Park", "Hyattsville", "Lanham"],
     zipCodes: ["20737"],
-    metaTitle: "Appliance Repair in Riverdale MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Riverdale MD",
     metaDescription:
       "Appliance repair in Riverdale, MD and Riverdale Park. Expert service for all major brands. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -165,7 +165,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Downtown Silver Spring", "Woodside", "Four Corners", "Colesville"],
     nearbyAreas: ["Hyattsville", "Takoma Park", "College Park"],
     zipCodes: ["20901", "20902", "20903", "20904", "20905", "20906", "20910"],
-    metaTitle: "Appliance Repair in Silver Spring MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Silver Spring MD",
     metaDescription:
       "Expert appliance repair in Silver Spring, MD. Refrigerators, washers, dryers, ovens, dishwashers. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -182,7 +182,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Glenarden Hills", "Carrollton"],
     nearbyAreas: ["Lanham", "Hyattsville", "Riverdale"],
     zipCodes: ["20706"],
-    metaTitle: "Appliance Repair in Glenarden MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Glenarden MD",
     metaDescription:
       "Local appliance repair in Glenarden, MD. Expert technicians for all major appliances and brands. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -200,7 +200,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Seabrook", "Ardmore"],
     nearbyAreas: ["Largo", "Glenarden", "Riverdale"],
     zipCodes: ["20706"],
-    metaTitle: "Appliance Repair in Lanham MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Lanham MD",
     metaDescription:
       "Appliance repair in Lanham, MD. Expert service for washers, dryers, refrigerators, and ovens. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -217,7 +217,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Arts District", "Ager Road", "Queens Chapel"],
     nearbyAreas: ["Riverdale", "College Park", "Silver Spring"],
     zipCodes: ["20781", "20782", "20783", "20784"],
-    metaTitle: "Appliance Repair in Hyattsville MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Hyattsville MD",
     metaDescription:
       "Expert appliance repair in Hyattsville, MD. All major brands and appliance types. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -234,7 +234,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Capitol Heights", "Walker Mill"],
     nearbyAreas: ["District Heights", "Seat Pleasant", "Washington DC"],
     zipCodes: ["20743"],
-    metaTitle: "Appliance Repair in Capitol Heights MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Capitol Heights MD",
     metaDescription:
       "Appliance repair in Capitol Heights, MD. We service all major brands. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -251,7 +251,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Forestville", "Silver Hill"],
     nearbyAreas: ["Capitol Heights", "Suitland", "Clinton"],
     zipCodes: ["20747"],
-    metaTitle: "Appliance Repair in District Heights MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in District Heights MD",
     metaDescription:
       "Appliance repair in District Heights, MD. Expert technicians for all major appliances. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -268,7 +268,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Suitland", "Hillcrest Heights"],
     nearbyAreas: ["District Heights", "Capitol Heights", "Seat Pleasant"],
     zipCodes: ["20746"],
-    metaTitle: "Appliance Repair in Suitland MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Suitland MD",
     metaDescription:
       "Appliance repair in Suitland, MD. Fast service for washers, dryers, refrigerators, and more. OEM parts. Call (240) 859-1014.",
   },
@@ -285,7 +285,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Old Town", "College Park Woods", "Berwyn"],
     nearbyAreas: ["Hyattsville", "Riverdale", "Greenbelt"],
     zipCodes: ["20740", "20742"],
-    metaTitle: "Appliance Repair in College Park MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in College Park MD",
     metaDescription:
       "Appliance repair in College Park, MD. Expert service near UMD. All major brands, OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -302,7 +302,7 @@ export const LOCATIONS: Location[] = [
     neighborhoods: ["Seat Pleasant"],
     nearbyAreas: ["Capitol Heights", "District Heights", "Washington DC"],
     zipCodes: ["20743"],
-    metaTitle: "Appliance Repair in Seat Pleasant MD | Metro Appliance Services",
+    metaTitle: "Appliance Repair in Seat Pleasant MD",
     metaDescription:
       "Appliance repair in Seat Pleasant, MD. Expert technicians for all major appliances. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },

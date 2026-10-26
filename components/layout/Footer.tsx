@@ -61,7 +61,7 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <span className="text-[#F5821F] font-semibold">Address:</span>{" "}
+                <span className="text-[#F5821F] font-semibold">Mailing address:</span>{" "}
                 <span className="text-gray-400">9701 Apollo Drive, Suite 100, Largo, MD 20774</span>
               </p>
               <p>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Metro Appliance Services",
+  title: "Terms & Conditions",
   description:
     "Terms and Conditions for Metro Appliance Services — warranty coverage, parts policy, pricing, and service agreement details for appliance repair in the Greater DMV area.",
   alternates: { canonical: "https://www.metroappliances.net/terms" },

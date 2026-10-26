@@ -3,7 +3,7 @@ import Link from "next/link";
 import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "About Metro Appliance Services | Largo MD",
+  title: "About Us | Largo MD",
   description:
     "Learn about Metro Appliance Services — a locally-owned appliance repair company serving the Greater DMV area since 2019. Expert technicians, OEM parts, 1-year warranty.",
   alternates: { canonical: "https://www.metroappliances.net/about" },

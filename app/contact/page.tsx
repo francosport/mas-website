@@ -231,8 +231,9 @@ export default function ContactPage() {
                   <div className="flex gap-3">
                     <span className="text-[#F5821F]">📍</span>
                     <div>
-                      <p className="font-semibold text-[#1B2A4A]">Address</p>
+                      <p className="font-semibold text-[#1B2A4A]">Mailing address</p>
                       <p className="text-gray-500">9701 Apollo Drive, Suite 100<br />Largo, MD 20774</p>
+                      <p className="text-gray-500 mt-1">We come to you. There is no walk-in location.</p>
                     </div>
                   </div>
                   <div className="flex gap-3">

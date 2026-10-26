@@ -40,7 +40,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: SITE_URL,
     siteName: "Metro Appliance Services",
     title: "Appliance Repair in Largo MD | Metro Appliance Services",
     description:
@@ -71,9 +70,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  alternates: {
-    canonical: SITE_URL,
   },
 };
 

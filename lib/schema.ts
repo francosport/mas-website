@@ -7,16 +7,13 @@ const BUSINESS = {
   name: "Metro Appliance Services",
   phone: "(240) 859-1014",
   email: "support@metroappliances.net",
+  // Service-area business: the street address is a mailing address only and
+  // is hidden on the Google Business Profile, so it stays out of the schema.
   address: {
-    streetAddress: "9701 Apollo Drive, Suite 100",
     addressLocality: "Largo",
     addressRegion: "MD",
     postalCode: "20774",
     addressCountry: "US",
-  },
-  geo: {
-    latitude: 38.8965,
-    longitude: -76.8336,
   },
   hours: "Mo-Fr 08:00-18:00",
   hoursText: "Monday–Friday, 8:00 AM – 6:00 PM",
@@ -25,6 +22,26 @@ const BUSINESS = {
   logo: `${BASE_URL}/logo.png`,
   image: `${BASE_URL}/logo.png`,
 };
+
+const AREA_SERVED = [
+  "Largo, MD",
+  "Bowie, MD",
+  "Mitchellville, MD",
+  "Upper Marlboro, MD",
+  "Clinton, MD",
+  "Waldorf, MD",
+  "Silver Spring, MD",
+  "Washington, DC",
+  "Riverdale, MD",
+  "Glenarden, MD",
+  "Lanham, MD",
+  "Hyattsville, MD",
+  "Capitol Heights, MD",
+  "District Heights, MD",
+  "Suitland, MD",
+  "College Park, MD",
+  "Seat Pleasant, MD",
+];
 
 export function localBusinessSchema() {
   return {
@@ -40,16 +57,10 @@ export function localBusinessSchema() {
     priceRange: BUSINESS.priceRange,
     address: {
       "@type": "PostalAddress",
-      streetAddress: BUSINESS.address.streetAddress,
       addressLocality: BUSINESS.address.addressLocality,
       addressRegion: BUSINESS.address.addressRegion,
       postalCode: BUSINESS.address.postalCode,
       addressCountry: BUSINESS.address.addressCountry,
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: BUSINESS.geo.latitude,
-      longitude: BUSINESS.geo.longitude,
     },
     openingHoursSpecification: [
       {
@@ -59,25 +70,13 @@ export function localBusinessSchema() {
         closes: "18:00",
       },
     ],
-    areaServed: [
-      "Largo, MD",
-      "Bowie, MD",
-      "Mitchellville, MD",
-      "Upper Marlboro, MD",
-      "Clinton, MD",
-      "Waldorf, MD",
-      "Silver Spring, MD",
-      "Washington, DC",
-      "Riverdale, MD",
-      "Glenarden, MD",
-      "Lanham, MD",
-      "Hyattsville, MD",
-      "Capitol Heights, MD",
-      "District Heights, MD",
-      "Suitland, MD",
-      "College Park, MD",
-      "Seat Pleasant, MD",
-    ],
+    areaServed: AREA_SERVED,
+    founder: {
+      "@type": "Person",
+      name: "Foman \"Frank\" Robinson",
+      jobTitle: "Owner & Lead Appliance Repair Technician",
+    },
+    foundingDate: "2019",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Appliance Repair Services",
@@ -98,7 +97,11 @@ export function localBusinessSchema() {
         },
       })),
     },
-    sameAs: ["https://www.facebook.com/metroappliances"],
+    sameAs: [
+      "https://www.facebook.com/metroappliances",
+      "https://maps.app.goo.gl/MoHEuLx9S61GvS3k8",
+      "https://nextdoor.com/page/metro-appliance-services-llc-upper-marlboro-md/",
+    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
@@ -144,10 +147,7 @@ export function servicePageSchema(service: Service, cityName?: string) {
     provider: {
       "@id": `${BASE_URL}/#business`,
     },
-    areaServed: {
-      "@type": "State",
-      name: "Maryland",
-    },
+    areaServed: AREA_SERVED,
     serviceOutput: `Repaired ${service.shortName}`,
     offers: {
       "@type": "Offer",
@@ -194,33 +194,18 @@ export function breadcrumbSchema(
 export function locationPageSchema(location: Location) {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${BASE_URL}/service-areas/${location.slug}#business`,
-    name: `Metro Appliance Services — ${location.name}, ${location.state}`,
+    "@type": "Service",
+    "@id": `${BASE_URL}/service-areas/${location.slug}#service`,
+    name: `Appliance Repair in ${location.name}, ${location.state}`,
+    serviceType: "Appliance repair",
     url: `${BASE_URL}/service-areas/${location.slug}`,
-    telephone: BUSINESS.phone,
-    email: BUSINESS.email,
-    priceRange: BUSINESS.priceRange,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: BUSINESS.address.streetAddress,
-      addressLocality: BUSINESS.address.addressLocality,
-      addressRegion: BUSINESS.address.addressRegion,
-      postalCode: BUSINESS.address.postalCode,
-      addressCountry: BUSINESS.address.addressCountry,
+    provider: {
+      "@id": `${BASE_URL}/#business`,
     },
     areaServed: {
       "@type": "City",
       name: `${location.name}, ${location.state}`,
     },
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "08:00",
-        closes: "18:00",
-      },
-    ],
   };
 }
 
