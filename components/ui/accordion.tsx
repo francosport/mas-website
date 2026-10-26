@@ -52,7 +52,10 @@ function AccordionContent({
   ...props
 }: AccordionPrimitive.Panel.Props) {
   return (
+    // hiddenUntilFound keeps closed answers in the HTML, so crawlers and
+    // in-page search can read FAQ content that is also in the FAQPage schema.
     <AccordionPrimitive.Panel
+      hiddenUntilFound
       data-slot="accordion-content"
       className="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
       {...props}

@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `https://www.metroappliances.net/services/${slug}`,
     },
     openGraph: {
-      title: service.metaTitle,
+      title: `${service.metaTitle} | Metro Appliance Services`,
       description: service.metaDescription,
       url: `https://www.metroappliances.net/services/${slug}`,
     },
@@ -121,7 +121,7 @@ export default async function ServicePage({ params }: Props) {
                   "✓ OEM parts — always",
                   "✓ 1-year parts & labor warranty",
                   "✓ Transparent, upfront pricing",
-                  "✓ Certified, professional technicians",
+                  "✓ Experienced, professional technicians",
                 ].map((item) => (
                   <p key={item} className="text-sm text-gray-600 flex items-start gap-1">
                     <span className="text-[#F5821F] font-bold">{item.slice(0, 1)}</span>

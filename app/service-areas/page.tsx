@@ -41,9 +41,9 @@ export default function ServiceAreasPage() {
             Serving 17 Communities Across the DMV
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl">
-            Based in Largo, MD, Metro Appliance Services provides certified appliance repair
+            Based in Largo, MD, Metro Appliance Services provides appliance repair
             throughout Prince George&apos;s County, Montgomery County, Charles County, and
-            Washington, DC.
+            Washington, DC. We occasionally take jobs in Northern Virginia. Call to check.
           </p>
         </div>
       </section>

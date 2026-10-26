@@ -25,14 +25,14 @@ export const SERVICES: Service[] = [
     shortName: "Refrigerator",
     tagline: "Stop food spoilage before it costs you more",
     description:
-      "Fast refrigerator repair in the DMV area. We fix temperature issues, compressor failures, ice maker problems, and more — certified technicians, OEM parts.",
+      "Fast refrigerator repair in the DMV area. We fix temperature issues, compressor failures, ice maker problems, and more — experienced technicians, OEM parts.",
     longDescription: `A failing refrigerator isn't just an inconvenience — it's hundreds of dollars of food at risk. Metro Appliance Services technicians diagnose and repair all major refrigerator types: top-freezer, bottom-freezer, French door, and side-by-side units.
 
 **Common problems we fix:**
 We address temperature inconsistencies (fridge too warm, freezer not freezing), compressor failures, condenser and evaporator fan motor issues, defrost system malfunctions, ice maker and water dispenser problems, door gasket replacements, and unusual noises.
 
 **Our repair process:**
-Every repair begins with a complimentary diagnostic assessment. Our certified technicians use manufacturer-approved OEM parts to ensure your refrigerator runs as intended. All repairs are backed by our one-year parts-and-labor warranty.
+Every repair starts with a full diagnostic visit ($85, waived when you go ahead with the repair). We use OEM or manufacturer-approved parts to ensure your refrigerator runs as intended. All repairs are backed by our one-year parts-and-labor warranty.
 
 **Brands we service:**
 Samsung, LG, GE, Whirlpool, Maytag, Frigidaire, Electrolux, KitchenAid, Kenmore, and Jenn-Air — among others.
@@ -53,7 +53,7 @@ A new refrigerator typically costs $800–$2,500+. Most refrigerator repairs cos
       {
         question: "How much does refrigerator repair cost in the DMV area?",
         answer:
-          "Most refrigerator repairs in the DC, Maryland, and Virginia area range from $150 to $400 depending on the part and labor involved. We provide a transparent, upfront quote after the diagnostic — no hidden fees. Our complimentary diagnostic is included with every repair.",
+          "Most refrigerator repairs in Maryland and Washington, DC run $150 to $400, depending on the part and labor. The service call is $85. If you go ahead with the repair, you pay the repair price only, never both. You get the full price before any work starts.",
       },
       {
         question: "Is it worth repairing a refrigerator or should I replace it?",
@@ -76,9 +76,9 @@ A new refrigerator typically costs $800–$2,500+. Most refrigerator repairs cos
           "All repairs include a one-year warranty on both parts and labor. If the same issue returns within a year, we come back at no additional charge.",
       },
     ],
-    metaTitle: "Refrigerator Repair in Largo MD | Metro Appliance Services",
+    metaTitle: "Refrigerator Repair in Largo MD",
     metaDescription:
-      "Fast, certified refrigerator repair in Largo, MD and the greater DMV area. OEM parts, 1-year warranty. Call (240) 859-1014.",
+      "Fast refrigerator repair in Largo, MD and the greater DMV area. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
   {
     slug: "washer-repair",
@@ -86,7 +86,7 @@ A new refrigerator typically costs $800–$2,500+. Most refrigerator repairs cos
     shortName: "Washer",
     tagline: "Get your laundry routine back on track",
     description:
-      "Expert washing machine repair for front-load and top-load units. We fix leaks, spin failures, error codes, and electrical issues — certified technicians, OEM parts.",
+      "Expert washing machine repair for front-load and top-load units. We fix leaks, spin failures, error codes, and electrical issues — experienced technicians, OEM parts.",
     longDescription: `A broken washing machine can disrupt your entire household routine. Metro Appliance Services repairs all types of washing machines — top-load, front-load, HE (high-efficiency), and compact units — across all major brands.
 
 **Common problems we fix:**
@@ -137,7 +137,7 @@ Every repair is backed by a full one-year parts-and-labor warranty. Your satisfa
           "We serve Largo, Bowie, Mitchellville, Upper Marlboro, Clinton, Waldorf, Silver Spring, Washington DC, and all surrounding communities in Prince George's County and the DMV area.",
       },
     ],
-    metaTitle: "Washer Repair in Largo MD | Metro Appliance Services",
+    metaTitle: "Washer Repair in Largo MD",
     metaDescription:
       "Expert washer repair in Largo, MD and the greater DMV. We fix all brands — front-load, top-load, HE. OEM parts, 1-year warranty. (240) 859-1014.",
   },
@@ -145,7 +145,7 @@ Every repair is backed by a full one-year parts-and-labor warranty. Your satisfa
     slug: "dryer-repair",
     name: "Dryer Repair",
     shortName: "Dryer",
-    tagline: "Clothes still damp? We'll fix that today",
+    tagline: "Clothes still damp? We'll get it drying again",
     description:
       "Professional dryer repair for electric and gas units across the DMV. We diagnose heating failures, drum issues, and mechanical problems — fast.",
     longDescription: `Damp clothes after a full cycle or a dryer that won't start at all — both are fixable. Metro Appliance Services repairs electric and gas dryers of all makes and models.
@@ -160,7 +160,7 @@ A dryer that doesn't heat properly or runs too hot can be a fire hazard. Don't d
 Samsung, LG, Whirlpool, Maytag, GE, Frigidaire, Electrolux, Kenmore, and Speed Queen.
 
 **Gas and electric:**
-We repair both gas and electric dryers. Our technicians are fully trained and licensed to work on gas appliances safely.`,
+We repair both gas and electric dryers. We are experienced with gas appliances and follow safe gas-handling practices on every job.`,
     icon: "♨️",
     symptoms: [
       "Clothes still damp after a full cycle",
@@ -198,7 +198,7 @@ We repair both gas and electric dryers. Our technicians are fully trained and li
           "We work to accommodate your schedule as quickly as possible throughout the Greater DMV area. Call (240) 859-1014 to check current availability.",
       },
     ],
-    metaTitle: "Dryer Repair in Largo MD | Metro Appliance Services",
+    metaTitle: "Dryer Repair in Largo MD",
     metaDescription:
       "Expert electric and gas dryer repair in Largo, MD and the DMV. We fix heating failures, drum issues, and more. OEM parts, 1-year warranty. (240) 859-1014.",
   },
@@ -208,7 +208,7 @@ We repair both gas and electric dryers. Our technicians are fully trained and li
     shortName: "Range/Oven",
     tagline: "Back to cooking — quickly and safely",
     description:
-      "Certified range and oven repair for gas and electric units. We fix burners, igniters, control boards, and temperature issues — all brands, DMV-wide.",
+      "Range and oven repair for gas and electric units. We fix burners, igniters, control boards, and temperature issues — all brands, DMV-wide.",
     longDescription: `Whether your oven won't heat to the right temperature or your range burners won't ignite, Metro Appliance Services has the expertise to fix it right.
 
 **Common problems we fix:**
@@ -259,9 +259,9 @@ Samsung, LG, GE, Whirlpool, Maytag, Frigidaire, KitchenAid, Jenn-Air, Bosch, and
           "Oven and range repairs typically range from $130 to $400 depending on the part needed. We provide a clear, upfront quote before any work begins.",
       },
     ],
-    metaTitle: "Range & Oven Repair in Largo MD | Metro Appliance Services",
+    metaTitle: "Range & Oven Repair in Largo MD",
     metaDescription:
-      "Certified gas and electric range and oven repair in Largo, MD and the DMV. Fix heating issues, igniters, and more. 1-year warranty. (240) 859-1014.",
+      "Gas and electric range and oven repair in Largo, MD and the DMV. Fix heating issues, igniters, and more. 1-year warranty. (240) 859-1014.",
   },
   {
     slug: "cooktop-stove-repair",
@@ -317,7 +317,7 @@ GE, Whirlpool, Bosch, Samsung, LG, Frigidaire, KitchenAid, Jenn-Air, Wolf, and T
           "We work to schedule your appointment as quickly as possible throughout the Greater DMV. Call (240) 859-1014 to check availability.",
       },
     ],
-    metaTitle: "Cooktop & Stove Repair in Largo MD | Metro Appliance Services",
+    metaTitle: "Cooktop & Stove Repair in Largo MD",
     metaDescription:
       "Gas, electric, and induction cooktop repair in Largo, MD and the DMV. Expert diagnosis, OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -375,7 +375,7 @@ Our technician arrives, performs a thorough diagnostic, and explains the issue i
           "We work to accommodate urgent appointments, especially for water-related issues. Call (240) 859-1014 to discuss your situation.",
       },
     ],
-    metaTitle: "Dishwasher Repair in Largo MD | Metro Appliance Services",
+    metaTitle: "Dishwasher Repair in Largo MD",
     metaDescription:
       "Expert dishwasher repair in Largo, MD and the DMV. Fix draining, leaks, poor cleaning, and more. OEM parts, 1-year warranty. Call (240) 859-1014.",
   },
@@ -433,7 +433,7 @@ If your disposal is more than 8–10 years old or the motor has failed, replacem
           "Repairs typically range from $80 to $200. New unit installation ranges from $150 to $350 depending on the model.",
       },
     ],
-    metaTitle: "Garbage Disposal Repair in Largo MD | Metro Appliance Services",
+    metaTitle: "Garbage Disposal Repair in Largo MD",
     metaDescription:
       "Garbage disposal repair and installation in Largo, MD and the DMV. Fix jams, leaks, and failures fast. Upfront pricing. Call (240) 859-1014.",
   },
@@ -498,7 +498,7 @@ Annual cleaning is recommended for most households. Families with large laundry 
           "Dryer vent cleaning in the DMV area typically costs $99–$149 for a standard single-dryer vent run. We'll provide an exact quote when you schedule.",
       },
     ],
-    metaTitle: "Dryer Vent Cleaning in Largo MD | Metro Appliance Services",
+    metaTitle: "Dryer Vent Cleaning in Largo MD",
     metaDescription:
       "Professional dryer vent cleaning in Largo, MD and the DMV. Reduce fire risk, cut drying times, OEM inspection. Annual cleaning recommended. (240) 859-1014.",
   },

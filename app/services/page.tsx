@@ -6,7 +6,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Appliance Repair Services in Largo MD",
   description:
-    "Metro Appliance Services offers certified repair for refrigerators, washers, dryers, ovens, cooktops, dishwashers, garbage disposals, and dryer vent cleaning across the Greater DMV area.",
+    "Metro Appliance Services offers repair for refrigerators, washers, dryers, ovens, cooktops, dishwashers, garbage disposals, and dryer vent cleaning across the Greater DMV area.",
   alternates: { canonical: "https://www.metroappliances.net/services" },
 };
 
@@ -38,7 +38,7 @@ export default function ServicesPage() {
             Our Appliance Repair Services
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl">
-            Certified technicians, OEM parts, and a 1-year warranty on every repair.
+            Experienced technicians, OEM parts, and a 1-year warranty on every repair.
             We service all major brands across 17 communities in the Greater DMV.
           </p>
         </div>

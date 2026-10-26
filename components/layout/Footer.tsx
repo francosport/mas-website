@@ -61,7 +61,7 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <span className="text-[#F5821F] font-semibold">Address:</span>{" "}
+                <span className="text-[#F5821F] font-semibold">Mailing address:</span>{" "}
                 <span className="text-gray-400">9701 Apollo Drive, Suite 100, Largo, MD 20774</span>
               </p>
               <p>
@@ -162,7 +162,7 @@ export default function Footer() {
         <div className="mt-12 pt-6 border-t border-[#1B2A4A] flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
           <p>© {currentYear} Metro Appliance Services. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-            <p>9701 Apollo Drive, Suite 100, Largo, MD 20774 &nbsp;|&nbsp; Licensed &amp; Insured</p>
+            <p>9701 Apollo Drive, Suite 100, Largo, MD 20774 &nbsp;|&nbsp; Fully Insured</p>
             <div className="flex items-center gap-3">
               <Link href="/terms" className="hover:text-[#F5821F] transition-colors">
                 Terms &amp; Conditions
