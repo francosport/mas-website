@@ -43,7 +43,7 @@ const HOME_FAQS = [
   {
     question: "Do you offer a warranty on your appliance repairs?",
     answer:
-      "Yes. Every repair comes with a 1-year limited warranty on parts and labor. Most repairs are fully covered — exclusions include misuse or overuse of the appliance, known manufacturer issues (addressed via service bulletins), repairs performed at a reduced service rate, or any situations discussed and agreed upon prior to the repair. See our Terms & Conditions for full details.",
+      "Yes. Most repairs come with a 1-year limited warranty on parts and labor. Exclusions include misuse or overuse of the appliance, known manufacturer issues (addressed via service bulletins), repairs performed at a reduced service rate, or any situations discussed and agreed upon prior to the repair. See our Terms & Conditions for full details.",
   },
   {
     question: "What areas do you serve?",
@@ -128,7 +128,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-8 animate-fade-in-up delay-200">
-                Expert technicians. OEM parts. 1-year warranty on every repair.
+                Expert technicians. OEM parts. 1-year warranty on most repairs.
                 We specialize in refrigerator repair, washer repair, dryer repair, oven repair,
                 dishwasher repair, and more — serving the Greater DMV from Largo, MD.
                 $85 service call fee — you pay that or the repair, never both.
@@ -232,7 +232,7 @@ export default function HomePage() {
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               From refrigerators to dryer vents, our expert technicians handle it all —
-              with OEM parts and a 1-year warranty on every job.
+              with OEM parts and a 1-year warranty on most repairs.
             </p>
           </div>
 
@@ -275,8 +275,8 @@ export default function HomePage() {
               </h2>
               <p className="text-gray-600 text-lg mb-8">
                 We&apos;re a locally-owned business in Largo, MD — not a national franchise. Every
-                technician is experienced and vetted, every part is genuine, and every repair is backed by our
-                full one-year warranty.
+                technician is experienced and vetted, every part is genuine, and most repairs are backed by
+                our one-year limited warranty.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[

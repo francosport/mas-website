@@ -38,7 +38,7 @@ export default function ServicesPage() {
             Our Appliance Repair Services
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl">
-            Experienced technicians, OEM parts, and a 1-year warranty on every repair.
+            Experienced technicians, OEM parts, and a 1-year warranty on most repairs.
             We service all major brands across 17 communities in the Greater DMV.
           </p>
         </div>

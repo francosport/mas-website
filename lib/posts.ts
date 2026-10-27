@@ -152,7 +152,7 @@ export const POSTS: Post[] = [
       {
         heading: "What a visit looks like",
         paragraphs: [
-          `We repair front-load and top-load washers from all major brands. ${PRICING_LINE} Every repair carries our one-year limited parts-and-labor warranty.`,
+          `We repair front-load and top-load washers from all major brands. ${PRICING_LINE} Most repairs carry our one-year limited parts-and-labor warranty.`,
         ],
       },
     ],

@@ -169,7 +169,7 @@ export default async function CityPage({ params }: Props) {
           </h2>
           <p className="text-gray-600 mb-8">
             Metro Appliance Services offers the full range of appliance repair in {location.name}, {location.state}.
-            All repairs include our 1-year parts-and-labor warranty.
+            Most repairs include our 1-year parts-and-labor warranty.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {SERVICES.map((service) => (

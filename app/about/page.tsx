@@ -66,8 +66,8 @@ export default function AboutPage() {
                 </p>
                 <p>
                   We believe in transparency: clear pricing before we start, honest assessments of
-                  whether repair or replacement makes more sense, and a full one-year warranty on every
-                  repair we complete.
+                  whether repair or replacement makes more sense, and a one-year limited warranty on most
+                  repairs we complete.
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function AboutPage() {
                   { value: "2019", label: "Year Founded" },
                   { value: "17", label: "Communities Served" },
                   { value: "8", label: "Appliance Types" },
-                  { value: "1-Yr", label: "Warranty on Every Job" },
+                  { value: "1-Yr", label: "Warranty on Most Jobs" },
                 ].map((stat) => (
                   <div key={stat.label} className="text-center">
                     <div
@@ -149,7 +149,7 @@ export default function AboutPage() {
               {
                 icon: "🛡️",
                 title: "1-Year Parts & Labor Warranty",
-                desc: "Every repair is backed by a full one-year warranty. If the same issue returns, we fix it at no charge.",
+                desc: "Most repairs are backed by a one-year limited warranty. If the same issue returns, we fix it at no charge.",
               },
               {
                 icon: "🔩",

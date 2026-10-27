@@ -32,7 +32,7 @@ export const SERVICES: Service[] = [
 We address temperature inconsistencies (fridge too warm, freezer not freezing), compressor failures, condenser and evaporator fan motor issues, defrost system malfunctions, ice maker and water dispenser problems, door gasket replacements, and unusual noises.
 
 **Our repair process:**
-Every repair starts with a full diagnostic visit ($85, waived when you go ahead with the repair). We use OEM or manufacturer-approved parts to ensure your refrigerator runs as intended. All repairs are backed by our one-year parts-and-labor warranty.
+Every repair starts with a full diagnostic visit ($85, waived when you go ahead with the repair). We use OEM or manufacturer-approved parts to ensure your refrigerator runs as intended. Most repairs are backed by our one-year parts-and-labor warranty.
 
 **Brands we service:**
 Samsung, LG, GE, Whirlpool, Maytag, Frigidaire, Electrolux, KitchenAid, Kenmore, and Jenn-Air — among others.
@@ -73,7 +73,7 @@ A new refrigerator typically costs $800–$2,500+. Most refrigerator repairs cos
       {
         question: "What warranty do you offer on refrigerator repairs?",
         answer:
-          "All repairs include a one-year warranty on both parts and labor. If the same issue returns within a year, we come back at no additional charge.",
+          "Most repairs include a one-year warranty on both parts and labor. If the same issue returns within a year, we come back at no additional charge.",
       },
     ],
     metaTitle: "Refrigerator Repair in Largo MD",
@@ -98,8 +98,8 @@ Our technicians arrive with fully-stocked service vehicles carrying the most com
 **Brands we service:**
 Samsung, LG, Whirlpool, Maytag, GE, Frigidaire, Electrolux, KitchenAid, Kenmore, and Speed Queen.
 
-**One-year warranty included:**
-Every repair is backed by a full one-year parts-and-labor warranty. Your satisfaction is guaranteed.`,
+**One-year warranty on most repairs:**
+Most repairs are backed by our one-year parts-and-labor warranty. Your satisfaction is guaranteed.`,
     icon: "🫧",
     symptoms: [
       "Washer won't spin or agitate",
@@ -337,7 +337,7 @@ Dishwasher not cleaning dishes properly, not draining, leaking water, not starti
 Samsung, LG, Bosch, GE, Whirlpool, Maytag, KitchenAid, Frigidaire, Electrolux, and Miele.
 
 **What to expect:**
-Our technician arrives, performs a thorough diagnostic, and explains the issue in plain English. Most dishwasher repairs are completed in a single visit using OEM parts. All work is covered by our one-year warranty.`,
+Our technician arrives, performs a thorough diagnostic, and explains the issue in plain English. Most dishwasher repairs are completed in a single visit using OEM parts. Most repairs are covered by our one-year limited warranty.`,
     icon: "🍽️",
     symptoms: [
       "Dishes coming out dirty or cloudy",
