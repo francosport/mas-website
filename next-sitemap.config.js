@@ -38,6 +38,22 @@ module.exports = {
       "seat-pleasant",
     ];
 
+    // Keep in sync with lib/posts.ts
+    const posts = [
+      "refrigerator-not-cooling",
+      "how-often-clean-dryer-vent",
+      "signs-washer-needs-repair",
+      "repair-or-replace-appliance",
+      "gas-vs-electric-appliance-repair",
+      "choose-appliance-repair-company",
+    ];
+
+    const postPaths = posts.map((slug) => ({
+      loc: `/blog/${slug}`,
+      changefreq: "monthly",
+      priority: 0.7,
+    }));
+
     const servicePaths = services.map((slug) => ({
       loc: `/services/${slug}`,
       changefreq: "monthly",
@@ -57,7 +73,7 @@ module.exports = {
       priority: 0.7,
     }));
 
-    return [...servicePaths, ...priorityLocations, ...standardLocations];
+    return [...servicePaths, ...priorityLocations, ...standardLocations, ...postPaths];
   },
   robotsTxtOptions: {
     policies: [

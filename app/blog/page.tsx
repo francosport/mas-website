@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { breadcrumbSchema } from "@/lib/schema";
+import { POSTS } from "@/lib/posts";
 
 export const metadata: Metadata = {
-  title: "Appliance Repair Tips & Guides | Blog",
+  title: "Appliance Repair Tips & Guides",
   description:
     "Appliance repair tips, maintenance guides, and homeowner advice from Metro Appliance Services — serving the Greater DMV area since 2019.",
   alternates: { canonical: "https://www.metroappliances.net/blog" },
@@ -12,15 +13,6 @@ export const metadata: Metadata = {
 const crumbs = [
   { name: "Home", url: "https://www.metroappliances.net" },
   { name: "Blog", url: "https://www.metroappliances.net/blog" },
-];
-
-const UPCOMING_TOPICS = [
-  "Why Your Refrigerator Isn't Cooling (And What to Do)",
-  "How Often Should You Clean Your Dryer Vent? The Answer Might Surprise You",
-  "5 Signs Your Washer Needs Professional Repair",
-  "Gas vs. Electric: Which Appliances Are Cheaper to Repair?",
-  "How to Choose a Reliable Appliance Repair Company in the DMV",
-  "The Real Cost of Ignoring a Broken Dishwasher",
 ];
 
 export default function BlogPage() {
@@ -52,54 +44,38 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Coming soon */}
+      {/* Posts */}
       <section className="bg-white py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="text-5xl mb-5">📝</div>
-          <h2
-            className="font-heading text-3xl md:text-4xl font-bold text-[#1B2A4A] mb-4"
-            style={{ fontFamily: "var(--font-barlow-condensed)" }}
-          >
-            Content Coming Soon
-          </h2>
-          <p className="text-gray-600 text-lg mb-10 max-w-xl mx-auto">
-            We&apos;re building a library of helpful guides for DMV homeowners. In the meantime,
-            call us for any appliance questions — no charge for advice.
-          </p>
-
-          <div className="bg-[#E2E6EC] rounded-2xl border border-gray-200 p-8 text-left mb-10">
-            <h3
-              className="font-heading text-xl font-bold text-[#1B2A4A] mb-5"
-              style={{ fontFamily: "var(--font-barlow-condensed)" }}
-            >
-              Coming Soon — Topics We&apos;re Covering
-            </h3>
-            <ul className="space-y-3">
-              {UPCOMING_TOPICS.map((topic) => (
-                <li key={topic} className="flex items-start gap-3">
-                  <span className="text-[#F5821F] font-bold mt-0.5">→</span>
-                  <span className="text-gray-600 font-medium">{topic}</span>
-                </li>
-              ))}
-            </ul>
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="space-y-5">
+            {POSTS.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="card-hover block bg-[#E2E6EC] rounded-xl border border-gray-200 p-6 group"
+              >
+                <h2
+                  className="font-heading text-2xl font-bold text-[#1B2A4A] group-hover:text-[#F5821F] transition-colors mb-2"
+                  style={{ fontFamily: "var(--font-barlow-condensed)" }}
+                >
+                  {post.title}
+                </h2>
+                <p className="text-gray-600 leading-relaxed">{post.answer}</p>
+                <span className="inline-block mt-3 text-[#F5821F] font-semibold">Read the guide →</span>
+              </Link>
+            ))}
           </div>
 
-          <p className="text-gray-500 mb-6">
-            Have a specific appliance question? Our technicians are happy to help.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="text-center mt-12">
+            <p className="text-gray-500 mb-6">
+              Have a specific appliance question? Call and ask; there&apos;s no charge for advice.
+            </p>
             <a
               href="tel:+12408591014"
-              className="btn-pulse bg-[#F5821F] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#D96B10] transition-colors text-lg"
+              className="btn-pulse bg-[#F5821F] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#D96B10] transition-colors text-lg inline-block"
             >
               Call (240) 859-1014
             </a>
-            <Link
-              href="/services"
-              className="bg-[#1B2A4A] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#243560] transition-colors text-lg"
-            >
-              View Our Services →
-            </Link>
           </div>
         </div>
       </section>
