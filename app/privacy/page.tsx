@@ -25,7 +25,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-gray-400 text-sm">
-            Last updated: April 2025 &nbsp;|&nbsp; Metro Appliance Services, Largo, MD
+            Last updated: October 2026 &nbsp;|&nbsp; Metro Appliance Services, Largo, MD
           </p>
         </div>
       </div>
@@ -136,13 +136,56 @@ export default function PrivacyPage() {
             </p>
           </section>
 
-          {/* 4. Data Retention */}
+          {/* 4. Text Messaging (SMS) */}
+          <section id="sms">
+            <h2
+              className="font-heading text-2xl font-bold text-[#1B2A4A] mb-3 pb-2 border-b border-gray-200"
+              style={{ fontFamily: "var(--font-barlow-condensed)" }}
+            >
+              4. Text Messaging (SMS)
+            </h2>
+            <p>
+              If you opt in to receive text messages from Metro Appliance Services, we collect your
+              mobile phone number and your consent status so we can send messages about your service
+              request.
+            </p>
+            <p className="mt-3">
+              No mobile information will be shared with third parties or affiliates for marketing or
+              promotional purposes. Information will not be sold or shared with third parties for
+              promotional or marketing purposes. All the above categories exclude text messaging
+              originator opt-in data and consent; this information will not be shared with any third
+              parties.
+            </p>
+            <p className="mt-3">
+              We may share your phone number only with service providers that help us deliver text
+              messages, such as our messaging platform and wireless carriers, and only to provide the
+              messaging service.
+            </p>
+            <p className="mt-3">
+              You can opt out at any time by replying <strong>STOP</strong>. For help, reply{" "}
+              <strong>HELP</strong> or contact us at{" "}
+              <a href="tel:+12408591014" className="text-[#F5821F] hover:underline">
+                (240) 859-1014
+              </a>{" "}
+              or{" "}
+              <a href="mailto:support@metroappliances.net" className="text-[#F5821F] hover:underline">
+                support@metroappliances.net
+              </a>
+              . See our{" "}
+              <Link href="/terms#sms" className="text-[#F5821F] hover:underline">
+                SMS Terms
+              </Link>{" "}
+              for full program details.
+            </p>
+          </section>
+
+          {/* 5. Data Retention */}
           <section>
             <h2
               className="font-heading text-2xl font-bold text-[#1B2A4A] mb-3 pb-2 border-b border-gray-200"
               style={{ fontFamily: "var(--font-barlow-condensed)" }}
             >
-              4. Data Retention
+              5. Data Retention
             </h2>
             <p>
               We retain service records, including contact information, for as long as reasonably
@@ -152,13 +195,13 @@ export default function PrivacyPage() {
             </p>
           </section>
 
-          {/* 5. Cookies */}
+          {/* 6. Cookies */}
           <section>
             <h2
               className="font-heading text-2xl font-bold text-[#1B2A4A] mb-3 pb-2 border-b border-gray-200"
               style={{ fontFamily: "var(--font-barlow-condensed)" }}
             >
-              5. Cookies
+              6. Cookies
             </h2>
             <p>
               Our website may use essential cookies to ensure basic functionality. Third-party tools
@@ -168,13 +211,13 @@ export default function PrivacyPage() {
             </p>
           </section>
 
-          {/* 6. Your Rights */}
+          {/* 7. Your Rights */}
           <section>
             <h2
               className="font-heading text-2xl font-bold text-[#1B2A4A] mb-3 pb-2 border-b border-gray-200"
               style={{ fontFamily: "var(--font-barlow-condensed)" }}
             >
-              6. Your Rights
+              7. Your Rights
             </h2>
             <p>You have the right to:</p>
             <ul className="list-disc pl-6 space-y-1 mt-2">
@@ -188,13 +231,13 @@ export default function PrivacyPage() {
             </p>
           </section>
 
-          {/* 7. Changes */}
+          {/* 8. Changes */}
           <section>
             <h2
               className="font-heading text-2xl font-bold text-[#1B2A4A] mb-3 pb-2 border-b border-gray-200"
               style={{ fontFamily: "var(--font-barlow-condensed)" }}
             >
-              7. Changes to This Policy
+              8. Changes to This Policy
             </h2>
             <p>
               We may update this Privacy Policy periodically. The most current version will always
