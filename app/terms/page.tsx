@@ -25,7 +25,7 @@ export default function TermsPage() {
             Terms &amp; Conditions
           </h1>
           <p className="text-gray-400 text-sm">
-            Last updated: April 2025 &nbsp;|&nbsp; Metro Appliance Services, Largo, MD
+            Last updated: October 2026 &nbsp;|&nbsp; Metro Appliance Services, Largo, MD
           </p>
         </div>
       </div>
@@ -233,13 +233,65 @@ export default function TermsPage() {
             </p>
           </section>
 
-          {/* 7. Changes */}
+          {/* 7. SMS Terms */}
+          <section id="sms">
+            <h2
+              className="font-heading text-2xl font-bold text-[#1B2A4A] mb-3 pb-2 border-b border-gray-200"
+              style={{ fontFamily: "var(--font-barlow-condensed)" }}
+            >
+              7. SMS / Text Messaging Terms
+            </h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                <strong>Program:</strong> Metro Appliance Services sends text messages about service
+                you request from us, including appointment confirmations and reminders, technician
+                arrival updates, scheduling, estimates, invoices, parts updates, and replies to your
+                questions.
+              </li>
+              <li>
+                <strong>Message frequency:</strong> Message frequency varies based on your service
+                activity.
+              </li>
+              <li>
+                <strong>Cost:</strong> Message and data rates may apply.
+              </li>
+              <li>
+                <strong>Opt out:</strong> Reply <strong>STOP</strong> at any time to stop receiving
+                text messages. You will receive one confirmation message and no further messages. To
+                resubscribe, reply <strong>START</strong>.
+              </li>
+              <li>
+                <strong>Help:</strong> Reply <strong>HELP</strong> for help, or contact us at{" "}
+                <a href="tel:+12408591014" className="text-[#F5821F] hover:underline">
+                  (240) 859-1014
+                </a>{" "}
+                or{" "}
+                <a href="mailto:support@metroappliances.net" className="text-[#F5821F] hover:underline">
+                  support@metroappliances.net
+                </a>
+                .
+              </li>
+              <li>Carriers are not liable for delayed or undelivered messages.</li>
+              <li>
+                Consent to receive text messages is not a condition of purchase or service.
+              </li>
+              <li>
+                <strong>Privacy:</strong> See our{" "}
+                <Link href="/privacy" className="text-[#F5821F] hover:underline">
+                  Privacy Policy
+                </Link>{" "}
+                for how we handle your information.
+              </li>
+            </ul>
+          </section>
+
+          {/* 8. Changes */}
           <section>
             <h2
               className="font-heading text-2xl font-bold text-[#1B2A4A] mb-3 pb-2 border-b border-gray-200"
               style={{ fontFamily: "var(--font-barlow-condensed)" }}
             >
-              7. Changes to These Terms
+              8. Changes to These Terms
             </h2>
             <p>
               We may update these Terms &amp; Conditions from time to time. The most current version
