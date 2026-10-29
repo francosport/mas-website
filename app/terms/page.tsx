@@ -245,8 +245,8 @@ export default function TermsPage() {
               <li>
                 <strong>Program:</strong> Metro Appliance Services sends text messages about service
                 you request from us, including appointment confirmations and reminders, technician
-                arrival updates, scheduling, estimates, invoices, parts updates, and replies to your
-                questions.
+                arrival updates, scheduling, estimates, invoices, receipts, parts updates, replies to
+                your questions, and a request to review our service after your repair.
               </li>
               <li>
                 <strong>Message frequency:</strong> Message frequency varies based on your service

@@ -114,10 +114,11 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-2">
               <li>
-                <strong>Online Booking (GoHighLevel / LeadConnector):</strong> Our online booking
-                widget is powered by a third-party CRM platform. When you submit a booking request,
-                your contact information is stored and managed within that platform, subject to
-                their own privacy policies.
+                <strong>Customer Messaging (GoHighLevel / LeadConnector):</strong> When you book
+                online or by phone, your contact information is stored in our scheduling system and
+                shared with a third-party CRM platform that delivers our text messages and emails,
+                subject to their own privacy policies. SMS opt-in data and consent are handled as
+                described in section 4.
               </li>
               <li>
                 <strong>Google Reviews (Trustindex):</strong> Our reviews widget loads and displays
